@@ -1,0 +1,48 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content form {
+    max-height: 30vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.content form input {
+    width: 400px;
+    background: transparent;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.content form .actions {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center
+}
+
+.content form .actions button {
+    width: 49%; 
+    padding: 10px;
+    margin-bottom: 2px;
+    background: transparent;
+    border: none;
+    border: 1px solid #fa8072;
+    border-radius: 5px;
+    color: #fa8072;
+}
+
+.content form .actions button:hover {
+    background: #fa8072;
+    color: #fff;
+    cursor: pointer
+}
