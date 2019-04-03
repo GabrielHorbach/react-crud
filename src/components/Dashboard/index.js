@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import './styles.css';
+import "./styles.css";
 
 const Dashboard = () => {
     return (
@@ -8,28 +8,30 @@ const Dashboard = () => {
             <div className="wrapper-date">
                 <p>Hoje</p>
                 <div>
-                    {new Date().toJSON().slice(0, 10).replace(/-/g, '/')}
+                    {new Date().toJSON().slice(0, 10).replace(/-/g, "/")}
                 </div>
             </div>
             <div className="wrapper-last-updates">
                 <p>Últimas modificações</p>
                 <table>
-                    <tr>
-                        <td className="description">Cadastro de clientes modificado</td>
-                        <td className="description-time">22min atrás</td>
-                    </tr>
-                    <tr>
-                        <td className="description">Cadastro de clientes modificado</td>
-                        <td className="description-time">22min atrás</td>
-                    </tr>
-                    <tr>
-                        <td className="description">Cadastro de clientes modificado</td>
-                        <td className="description-time">22min atrás</td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td className="description">Cadastro de clientes modificado</td>
+                            <td className="description-time">22min atrás</td>
+                        </tr>
+                        <tr>
+                            <td className="description">Cadastro de clientes modificado</td>
+                            <td className="description-time">22min atrás</td>
+                        </tr>
+                        <tr>
+                            <td className="description">Cadastro de clientes modificado</td>
+                            <td className="description-time">22min atrás</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>
     );
-}
+};
 
 export default Dashboard;
